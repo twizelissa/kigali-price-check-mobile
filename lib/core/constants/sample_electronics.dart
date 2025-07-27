@@ -1,0 +1,153 @@
+class SampleElectronics {
+  static const List<Map<String, dynamic>> products = [
+    {
+      'name': 'iPhone 15 Pro',
+      'category': 'Smartphones',
+      'brand': 'Apple',
+      'model': '15 Pro',
+      'averagePrice': 1200000.0,
+      'imageUrl': 'https://example.com/iphone15pro.jpg',
+      'specifications': '128GB, 6.1-inch, Pro Camera System',
+    },
+    {
+      'name': 'Samsung Galaxy S24',
+      'category': 'Smartphones',
+      'brand': 'Samsung',
+      'model': 'Galaxy S24',
+      'averagePrice': 850000.0,
+      'imageUrl': 'https://example.com/galaxys24.jpg',
+      'specifications': '256GB, 6.2-inch, Triple Camera',
+    },
+    {
+      'name': 'MacBook Pro 14-inch',
+      'category': 'Laptops',
+      'brand': 'Apple',
+      'model': 'MacBook Pro 14',
+      'averagePrice': 2500000.0,
+      'imageUrl': 'https://example.com/macbookpro14.jpg',
+      'specifications': 'M3 Chip, 16GB RAM, 512GB SSD',
+    },
+    {
+      'name': 'Dell XPS 13',
+      'category': 'Laptops',
+      'brand': 'Dell',
+      'model': 'XPS 13',
+      'averagePrice': 1800000.0,
+      'imageUrl': 'https://example.com/dellxps13.jpg',
+      'specifications': 'Intel i7, 16GB RAM, 512GB SSD',
+    },
+    {
+      'name': 'iPad Pro 12.9-inch',
+      'category': 'Tablets',
+      'brand': 'Apple',
+      'model': 'iPad Pro 12.9',
+      'averagePrice': 1400000.0,
+      'imageUrl': 'https://example.com/ipadpro.jpg',
+      'specifications': 'M2 Chip, 256GB, 12.9-inch Liquid Retina',
+    },
+    {
+      'name': 'AirPods Pro',
+      'category': 'Accessories',
+      'brand': 'Apple',
+      'model': 'AirPods Pro',
+      'averagePrice': 280000.0,
+      'imageUrl': 'https://example.com/airpodspro.jpg',
+      'specifications': 'Active Noise Cancellation, Wireless Charging',
+    },
+    {
+      'name': 'Sony WH-1000XM5',
+      'category': 'Accessories',
+      'brand': 'Sony',
+      'model': 'WH-1000XM5',
+      'averagePrice': 450000.0,
+      'imageUrl': 'https://example.com/sonywh1000xm5.jpg',
+      'specifications': 'Noise Cancelling, 30hr Battery',
+    },
+    {
+      'name': 'HP Pavilion 15',
+      'category': 'Laptops',
+      'brand': 'HP',
+      'model': 'Pavilion 15',
+      'averagePrice': 950000.0,
+      'imageUrl': 'https://example.com/hppavilion15.jpg',
+      'specifications': 'Intel i5, 8GB RAM, 256GB SSD',
+    },
+  ];
+
+  static const List<Map<String, dynamic>> stores = [
+    {
+      'name': 'MTN Telecom Kigali',
+      'location': 'Kigali City Tower',
+      'rating': 4.5,
+      'specialties': ['Smartphones', 'Accessories'],
+      'distance': '1.2km',
+    },
+    {
+      'name': 'Simba Telecom',
+      'location': 'Union Trade Center',
+      'rating': 4.2,
+      'specialties': ['Smartphones', 'Tablets'],
+      'distance': '2.5km',
+    },
+    {
+      'name': 'Tech City Rwanda',
+      'location': 'Kimisagara',
+      'rating': 4.0,
+      'specialties': ['Laptops', 'Computers', 'Accessories'],
+      'distance': '3.1km',
+    },
+    {
+      'name': 'Computer Village',
+      'location': 'Nyabugogo',
+      'rating': 3.8,
+      'specialties': ['Laptops', 'Computers', 'Monitors'],
+      'distance': '4.2km',
+    },
+    {
+      'name': 'Best Electronics',
+      'location': 'Remera',
+      'rating': 4.3,
+      'specialties': ['Smartphones', 'Laptops'],
+      'distance': '2.8km',
+    },
+  ];
+
+  static const List<String> categories = [
+    'Smartphones',
+    'Laptops',
+    'Tablets',
+    'Accessories',
+    'Computers',
+    'Monitors',
+    'Keyboards',
+    'Mice',
+    'Speakers',
+    'Headphones',
+  ];
+
+  static const List<String> brands = [
+    'Apple',
+    'Samsung',
+    'Dell',
+    'HP',
+    'Lenovo',
+    'Asus',
+    'Sony',
+    'JBL',
+    'Beats',
+    'Logitech',
+    'Microsoft',
+    'Google',
+    'OnePlus',
+    'Xiaomi',
+    'Huawei',
+  ];
+
+  static const List<String> priceRanges = [
+    'Under 100K',
+    '100K - 500K',
+    '500K - 1M',
+    '1M - 2M',
+    'Over 2M',
+  ];
+}
